@@ -1,0 +1,52 @@
+//=======  Fonts  ========== // 
+$main-font: 'Roboto', sans-serif;
+$secondary-font: 'Raleway', sans-serif;
+
+// =========  Text colors  ====== //
+$main-txt-cl:  #757575;
+$secondary-txt-cl:  #212121;
+$accent-txt-cl: #2196F3;
+
+
+//=========  BG colors ====== //
+$main-bg-cl: #FFFFFF;
+$secondary-bg-cl: #F5F4FA;
+$icon-bg-cl:  #AFB1B8;
+
+//========  Base styles  ===== //
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-background);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+//========  Reset start  ===== //
+
