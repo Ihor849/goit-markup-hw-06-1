@@ -303,37 +303,6 @@ summary {
   display: flex;
 }
 
-.navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 93px;
-  gap: 50px;
-}
-
-.navigation__item {
-  gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.navigation__linc {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
 .section.section__hero {
   padding-top: 200px;
   padding-bottom: 200px;
