@@ -10,14 +10,14 @@
     text-align: center;
     background-image: linear-gradient(to right,
     rgba(49, 47, 58, 0.4), rgba(49, 47, 58, 0.4)),
-    url(../../images-1/hero.jpg);
+    // url(../../images-1/hero.jpg);
 }
 
 .section__title--hero {
     max-width: 696px;
     margin: 0 auto 30px;
 
-    color: var();
+    color: var(--);
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;

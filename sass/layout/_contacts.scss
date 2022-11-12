@@ -25,3 +25,13 @@
 .contacts__icons-envelope {
     margin-right: 10px;
 }
+
+.contacts__icons-tel,
+.contacts__icons-envelope {
+    fill: currentColor;
+    color: inherit;
+}
+
+.contacts__link:hover {
+    color: #2196F3;
+}
