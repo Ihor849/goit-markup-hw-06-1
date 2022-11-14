@@ -1,4 +1,4 @@
-.section.section__hero {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -7,20 +7,21 @@
     margin-right: auto;
     background-color: #C4C4C4;
     background-size: cover;
-    text-align: center;
     background-image: linear-gradient(to right,
     rgba(49, 47, 58, 0.4), rgba(49, 47, 58, 0.4)),
-    // url(../../images-1/hero.jpg);
+    url(../../images/hero.jpg);
+    text-align: center;
 }
 
-.section__title--hero {
+.hero-title {
+
     max-width: 696px;
     margin: 0 auto 30px;
 
-    color: var(--);
+    color: #fff;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em
+    letter-spacing: 0.06em;
 }

@@ -1,0 +1,37 @@
+.section.clients {
+    padding-top: 97px;
+    padding-bottom: 82px;
+
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.title-list-clients {
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+
+    display: flex;
+    align-items: center;
+    background-color: var(--main-background);
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #AFB1B8;
+    // outline: 2px solid rgb(7, 218, 42);
+}
+
+.title-list-clients:focus,
+.title-list-clients:hover {
+    border-color: 1px solid var(--accent-color);
+    color: #188CE8;
+}
+
+.client {
+    fill: currentColor;
+}

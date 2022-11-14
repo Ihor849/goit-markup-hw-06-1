@@ -1,0 +1,27 @@
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us-text {
+    display: block;
+    flex-basis: calc((100% - 30px*3) / 4);
+    margin-right: 30px;
+}
+
+.about-us-text:nth-child(4n) {
+    margin-right: 0;
+}
+
+.icon-container {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 244, 250, 1);
+    padding: 25px 100px;
+    border-radius: 4px;
+}
